@@ -110,12 +110,12 @@
       {
         font-size: 1.6em;
       }
-      #contact #contactHolder #form form .formel textarea
+      /*#contact #contactHolder #form form .formel textarea
       {
         width: 15.5em;
         font-size: 1.5em;
         width: 16.1em;
-      }
+      }*/
       #contact #contactHolder #form form .formel button{
         font-size: 1.3em;
         padding: 0.2em 1.6em;
@@ -318,9 +318,9 @@
   #contact #contactHolder #form form .formel input[type="text"], #contact #contactHolder #form form .formel input[type="email"], #contact #contactHolder #form form .formel textarea{
     font-size:1.4em;
   }
-  #contact #contactHolder #form form .formel textarea{
+  /*#contact #contactHolder #form form .formel textarea{
     width: 14.7em;
-  }
+  }*/
   #contact #contactHolder #form form .formel button{
     font-size:1.1em;
   }
@@ -465,9 +465,9 @@
     justify-content: center;
     order:1;
   }
-  #contact #contactHolder #form form .formel textarea{
+ /* #contact #contactHolder #form form .formel textarea{
     width: 14.8em;
-  }
+  }*/
   #contact #contactHolder #form form .formel input[type="text"], #contact #contactHolder #form form .formel input[type="email"], #contact #contactHolder #form form .formel textarea{
     font-size:1.9em;
   }
@@ -518,9 +518,9 @@
   #contact #contactHolder #form form .formel input[type="text"], #contact #contactHolder #form form .formel input[type="email"], #contact #contactHolder #form form .formel textarea{
     font-size:1.6em;
   }
-  #contact #contactHolder #form form .formel textarea{
+ /* #contact #contactHolder #form form .formel textarea{
     width: 15.1em;
-  }
+  }*/
   #contact #contactHolder #form form .formel button{
     padding: 0.2em 6.5em;
     font-size:1.3em;
@@ -585,9 +585,9 @@
   #contact #contactHolder #form form .formel input[type="text"], #contact #contactHolder #form form .formel input[type="email"], #contact #contactHolder #form form .formel textarea{
     font-size: 7vw;
   }
-  #contact #contactHolder #form form .formel textarea{
+  /*#contact #contactHolder #form form .formel textarea{
     width: 84.5vw;
-  }
+  }*/
   #contact #contactHolder #form form .formel button{
     font-size: 1.2em;
     padding: 0.2em 37vw;
@@ -604,6 +604,11 @@
   #skills .sk::after{
     width:12vw;
   }
+  #footer #links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media screen and (max-width:330px){
   #slider-nav #slider #info h1{
@@ -618,17 +623,13 @@
     font-size: 4.2vw;
   }
  
-  #contact #contactHolder #form form .formel textarea{
+  /*#contact #contactHolder #form form .formel textarea{
     width: 84vw;
-  }
+  }*/
   #contact #contactHolder #form form .formel button{
     padding: 0.2em 35vw;
 }
-#footer #links{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 
   }
  
