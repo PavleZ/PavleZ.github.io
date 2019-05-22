@@ -1,0 +1,634 @@
+@media screen and (max-width:1615px){
+    #slider-nav #slider #info #textHolder {
+        width: 60%;
+        }
+      #slider-nav #slider #info h1 {
+        font-size: 4em; }
+      #slider-nav #slider #info h2 {
+        font-size: 2.5em; }
+      #slider-nav #slider #info p {
+        font-size: 1.3em;
+         }
+         #slider-nav #slider #authorPhoto {
+            width: 40%;
+            }
+          
+              #slider-nav #slider #authorPhoto #imageHolder img {
+                width: 22vw;
+                 }
+                 .heading{
+                     font-size:3em;
+                 }
+                 #project .project-block .project-image img{
+                     height:13vh;
+                 } 
+                 #about #about-image{
+                     width:35%;
+                 
+                 }
+                 #about #about-image img{
+                    width: 90%;
+                    height: 90%;
+                 }
+
+}
+@media screen and (max-width:1503px)
+{
+    #slider-nav #slider #info #textHolder{
+        width:65%;
+    }
+    #slider-nav #slider #authorPhoto {
+        width: 35%;
+        }
+    #skills #skill-holder .skill .skill-heading{
+        text-align: center;
+    }
+}
+@media  screen and (max-width:1388px)
+{
+  #slider-nav #slider #info #textHolder
+  {
+    width:100%;
+    
+  }
+  #slider-nav #slider #info{
+    width: 55%;
+  }
+  #slider-nav #slider #authorPhoto
+  {
+    
+    width: 40%;
+  }
+  #project .project-block {
+    width: 14vw; }
+    #project .project-block .content {
+      
+      padding: 0.7em; }
+    #project .project-block .content .project-heading{
+      font-size:1.3em;
+    }
+    #project .project-block .content .technologies {
+      font-size: 1em; }
+      #slider-nav #slider #authorPhoto #imageHolder img {
+        width: 25vw;
+        }
+       
+.heading::after, #contact .co::after{
+  width:10vw;
+}
+#about #about-text #textHolder .ab::after, #education .ed::after{
+  width:12vw;
+}
+#skills .sk::after{
+  width:6vw;
+}
+
+
+}
+@media screen and (max-width:1120px)
+{
+  #project .project-block {
+    width: 15vw; }
+ .heading{
+   font-size:2.5em;
+ }
+ #education #educationHolder #educationImage {
+ width:50%;
+  justify-content: flex-end; }
+  #skills #skill-holder .skill .progressFrame{
+    width:100%;
+  }
+  #education #educationHolder #educationBlocks #educationBlockHolder .educationBlock
+  {
+    padding:1.5em;
+  }
+  #contact #contactHolder #info #info-holder .info-heading {
+    font-size: 1.8em; }
+    #contact #contactHolder #info #info-holder p, #contact #contactHolder #info #info-holder #social {
+      font-size: 1.2em; }
+      #contact #contactHolder #form form .formel input[type="text"], #contact #contactHolder #form form .formel input[type="email"], #contact #contactHolder #form form .formel textarea
+      {
+        font-size: 1.6em;
+      }
+      #contact #contactHolder #form form .formel textarea
+      {
+        width: 15.5em;
+        font-size: 1.5em;
+        width: 16.1em;
+      }
+      #contact #contactHolder #form form .formel button{
+        font-size: 1.3em;
+        padding: 0.2em 1.6em;
+        
+      }
+      #contact #contactHolder #form form .formel ::placeholder
+      {
+        padding: 0 0.5em;
+      }
+      #education #educationHolder #educationImage img{
+        height: 90%;
+      }
+}
+@media screen and (max-width:1069px)
+{
+
+  #about #about-text {
+    display:flex;
+    align-items:center;
+  }
+  #about #about-text #textHolder p{
+    font-size: 1.2em;
+    overflow-wrap: break-word;
+  word-wrap: break-word;
+  }
+  #about #about-text{
+    width:65%;
+  /* border:1px solid #fff;*/
+  }
+  /*#about #about-image{
+    border:1px solid #ff00ff;
+  }*/
+  #project .project-block{
+    width:14.2vw;
+    height:23vh;
+  }
+  #project .project-block .content .project-heading
+  {
+    font-size: 1.8vw;
+  }
+  #project .project-block .content .technologies{
+    font-size: 1.5vw;
+  }
+  #project .project-block .content{
+    padding: 0.3em;
+  }
+  #project .project-block .project-image img{
+    height: 12vh;
+  }
+  #skills #skill-holder #group1, #skills #skill-holder #group2{
+    width:50%;
+  }
+  #slider-nav #nav #menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #slider-nav #nav #menu ul{
+    width:100%;
+  }
+  #education #educationHolder #educationBlocks #educationBlockHolder .educationBlock
+  {
+    padding: 1.2em
+  }
+  #education #educationHolder #educationBlocks #educationBlockHolder .educationBlock .school
+  {
+    font-size:1.2em;
+  }
+  #slider-nav #slider #authorPhoto #imageHolder img{
+    width:100%;
+  }
+  .heading::after, #contact .co::after{
+    width:11vw;
+  }
+  #about #about-text #textHolder .ab::after, #education .ed::after{
+    width:13vw;
+  }
+  #skills .sk::after{
+    width:5vw;
+  }
+}
+@media  screen and (max-width:992px){
+  #project .project-block{
+    width:50%;
+    display: flex;
+    
+   padding: 0px;
+   margin: 0px;
+   height:auto;
+  }
+  #project .project-block .content .technologies{
+    font-size: 1.8vw;
+  }
+  #project .project-block .project-image{
+    width:50%;
+    height: auto;
+  }
+  #project .project-block .project-image img{
+    width:100%;
+    height:100%;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 0px;
+  }
+  #project .project-block .content{
+    width:50%;
+   padding: 10px 0px;
+  }
+  #slider-nav #slider #authorPhoto #imageHolder{
+    width:90%;
+  }
+  #slider-nav #slider #authorPhoto #imageHolder img{
+    width:100%;
+  }
+  #skills #skill-holder .skill .skill-heading{
+    font-size: 1.2em;
+  }
+  #skills #skill-holder .skill .progressFrame{
+    height: 1.5vh;
+  }
+  #project #project-holder{
+    padding:3em;
+  }
+  #slider-nav #slider #info h1{
+    font-size:3.3em
+  }
+  #slider-nav #slider #info h2{
+    font-size:2em
+  }
+  #slider-nav #slider #info p{
+    font-size: 1.1em;
+  }
+  #about{
+    
+    flex-direction: column;
+  }
+  #about #about-image{
+  width:100%;
+     
+  }
+  #about #about-image img{
+    width:45%;
+  }
+  #about #about-text {
+    width: 100%;
+   
+  }
+  #about #about-text #textHolder p{
+    font-size:1.4em;
+  }
+  #about #about-text {
+    padding: 3em 0;
+  }
+  #about #about-text #textHolder{
+    text-align: center;
+  }
+  #contact #contactHolder #info{
+    width:50%;
+  }
+  
+
+}
+@media screen and (max-width:850px){
+  #slider-nav #slider #authorPhoto #imageHolder {
+    width: 95%;
+  }
+  #project .project-block .content .project-heading{
+    font-size:2.2vw;
+  }
+  #project .project-block .content .technologies{
+    font-size:2vw;
+  }
+  #slider-nav #slider #info h1{
+    font-size:3em;
+  }
+  #slider-nav #slider #info h2{
+    font-size: 1.8em;
+  }
+  #skills #skill-holder{
+    flex-direction: column;
+  }
+  #skills #skill-holder #group1, #skills #skill-holder #group2{
+    width:100%;
+    padding: 0;
+  }
+  #skills #skill-holder .skill .skillHeadingHolder{
+    justify-content:center;
+  }
+  #education #educationHolder #educationBlocks{
+    width:50%;
+  }
+  #contact #contactHolder #form{
+    justify-content: flex-end;
+  }
+  #contact #contactHolder #info #info-holder .info-heading{
+    font-size:1.5em;
+  }
+  #contact #contactHolder #info #info-holder p, #contact #contactHolder #info #info-holder #social{
+    font-size:1em;
+  }
+  #contact #contactHolder #form form .formel input[type="text"], #contact #contactHolder #form form .formel input[type="email"], #contact #contactHolder #form form .formel textarea{
+    font-size:1.4em;
+  }
+  #contact #contactHolder #form form .formel textarea{
+    width: 14.7em;
+  }
+  #contact #contactHolder #form form .formel button{
+    font-size:1.1em;
+  }
+}
+@media screen and (max-width:750px){
+  .holder{
+    width:100%;
+  }
+  #slider-nav #slider #authorPhoto{
+    width:45%;
+  }
+  #project .project-block{
+    width:65%;
+  }
+  #project .project-block .content .project-heading{
+    font-size: 2.6vw;
+  }
+  #about #about-text #textHolder p{
+    font-size:1.2em;
+  }
+  #education #educationHolder #educationImage img{
+    width: 80%;
+  }.heading{
+    font-size:2.2em;
+  }
+  .heading::after, #contact .co::after{
+    width:13vw;
+  }
+  #about #about-text #textHolder .ab::after, #education .ed::after{
+    width:15vw;
+  }
+  #skills .sk::after{
+    width:7vw;
+  }
+}
+@media screen and (max-width:625px){
+  #slider-nav #slider{
+    padding-top:2em; 
+    padding-bottom:0em; 
+  }
+  #slider-nav #nav{
+    flex-direction: column;
+  }
+  #slider-nav #nav #logo{
+    width:100%;
+    justify-content: center;
+  }
+  #slider-nav #nav #menu ul{
+    width:100%;
+  }
+  #slider-nav #slider{
+    flex-direction: column;
+  }
+  #slider-nav #slider #info{
+    width:100%;
+    justify-content: center;
+    order: 2;
+  }
+  #slider-nav #slider #info #textHolder{
+    text-align: center;
+  }
+  #slider-nav #slider #authorPhoto{
+    width: 100%;
+  }
+  #slider-nav #slider #authorPhoto #imageHolder{
+    width: 50%;
+  }
+  #slider-nav #slider #info{
+    min-height: 0;
+  }
+  #slider-nav #slider #info #textHolder{
+    padding: 1em;
+  }
+  #project #project-holder{
+    padding: 1em;
+  }
+  #project .project-block{
+    width:100%;
+  }
+  #project .project-block .content .project-heading{
+    font-size: 5vw;
+  }
+  #project .project-block .content .technologies{
+    font-size: 3.8vw;
+  }
+  #skills #skill-holder{
+    padding:1em;
+  }
+  #skills #skill-holder .skill .progressFrame{
+    height: 1.2vh;
+  }
+  #about #about-text{
+    padding:1.5em;
+  }
+  #slider-nav #slider #info h1{
+    font-size:3.3em;
+  }
+  #slider-nav #slider #info h2{
+    font-size:2.4em;
+  }
+  #slider-nav #slider #info p{
+    font-size:1.3em;
+  }
+  #education #educationHolder #educationImage{
+    display:none;
+  }
+  #education #educationHolder #educationBlocks{
+    width:100%;
+    padding-top: 1em;
+   
+  }
+  #education #educationHolder #educationBlocks #educationBlockHolder {
+    width: 100%;
+    
+  }
+  #education #educationHolder #educationBlocks #educationBlockHolder .educationBlock{
+    width:70%;
+    margin: 1em auto;
+  }
+  #contact #contactHolder{
+    padding:1.5em;
+  }
+  #contact #contactHolder #info #info-holder .info-heading{
+    display:none;
+  }
+  #contact #contactHolder #info #info-holder p{
+    display:none;
+  }
+  #contact #contactHolder{
+    flex-direction: column;
+  }
+  #contact #contactHolder #info{
+    width:100%;
+    order: 2;
+    padding-top: 1em;
+  }#contact #contactHolder #form{
+    width:100%;
+  }
+
+  #contact #contactHolder #form{
+    padding-top: 1em;
+    justify-content: center;
+    order:1;
+  }
+  #contact #contactHolder #form form .formel textarea{
+    width: 14.8em;
+  }
+  #contact #contactHolder #form form .formel input[type="text"], #contact #contactHolder #form form .formel input[type="email"], #contact #contactHolder #form form .formel textarea{
+    font-size:1.9em;
+  }
+  #contact #contactHolder #form form .formel button{
+    padding: 0.2em 6.6em;
+    font-size: 1.5em;
+  }
+  #contact #contactHolder #info #info-holder p, #contact #contactHolder #info #info-holder #social{
+    font-size:1.3em;
+  }
+  #about #about-text #textHolder p{
+    padding-top:1em; 
+  }
+  #about #about-text #textHolder p:last-of-type{
+    padding: 0em;
+  }
+  .heading::after, #contact .co::after{
+    width:15vw;
+  }
+  #about #about-text #textHolder .ab::after, #education .ed::after{
+    width:18vw;
+  }
+  #skills .sk::after{
+    width:10vw;
+  }
+  
+  
+}
+@media screen and (max-width:480px){
+  #slider-nav #slider #info h1{
+    font-size: 3em;
+  }
+  #slider-nav #slider #info h2{
+    font-size:2.2em;
+  }#slider-nav #slider #info p{
+    display: none;
+  }
+  #slider-nav #slider #info p:last-of-type{
+    display: block;
+
+  }
+  #education #educationHolder #educationBlocks #educationBlockHolder .educationBlock{
+    width:100%;
+  }
+  #slider-nav #slider #authorPhoto #imageHolder{
+    width: 55%;
+  }
+  #contact #contactHolder #form form .formel input[type="text"], #contact #contactHolder #form form .formel input[type="email"], #contact #contactHolder #form form .formel textarea{
+    font-size:1.6em;
+  }
+  #contact #contactHolder #form form .formel textarea{
+    width: 15.1em;
+  }
+  #contact #contactHolder #form form .formel button{
+    padding: 0.2em 6.5em;
+    font-size:1.3em;
+  }
+  #education #educationHolder #educationBlocks #educationBlockHolder .educationBlock .school{
+    font-size: 1.3em;
+  }
+  #education #educationHolder #educationBlocks #educationBlockHolder .educationBlock p{
+    font-size: 1.1em;
+  }
+  #slider-nav #nav #menu ul{
+    padding-top:1em; 
+    flex-direction: column;
+    align-items: center;
+  }
+  #slider-nav #nav #menu ul li{
+    border:1px solid #1F1E24;
+    width:100%;
+    display: flex;
+    justify-content: center;
+  }
+  .organize{
+    padding: 0em;
+  }
+  #about #about-image{
+    display: none;
+  }
+  #about #about-text #textHolder{
+    text-align: justify;
+  }
+}
+@media screen and (max-width:380px)
+{
+  #slider-nav #slider #info h1{
+    font-size: 2.5em;
+  }
+  #slider-nav #slider #info h2{
+    font-size: 1.8em;
+  }
+  #slider-nav #slider #info p:last-of-type{
+    font-size: 1.2em;
+  }
+  #slider-nav #slider #authorPhoto #imageHolder{
+    width:65%;
+  }
+  #project .project-block .content .technologies{
+    font-size: 4vw;
+  }
+  #skills #skill-holder .skill .skill-heading{
+    font-size:1em;
+  }
+  #skills #skill-holder{
+    padding:0.2em;
+  }
+  #education #educationHolder #educationBlocks #educationBlockHolder .educationBlock .school{
+    font-size: 1.1em;
+    font-weight: 700;
+  }
+  #education #educationHolder #educationBlocks #educationBlockHolder .educationBlock p{
+    font-size:1em;
+  }
+  #contact #contactHolder #form form .formel input[type="text"], #contact #contactHolder #form form .formel input[type="email"], #contact #contactHolder #form form .formel textarea{
+    font-size: 7vw;
+  }
+  #contact #contactHolder #form form .formel textarea{
+    width: 84.5vw;
+  }
+  #contact #contactHolder #form form .formel button{
+    font-size: 1.2em;
+    padding: 0.2em 37vw;
+  }
+  #contact #contactHolder #form{
+    padding: 0px;
+  }
+  .heading::after, #contact .co::after{
+    width:26vw;
+  }
+  #about #about-text #textHolder .ab::after, #education .ed::after{
+    width:28vw;
+  }
+  #skills .sk::after{
+    width:12vw;
+  }
+}
+@media screen and (max-width:330px){
+  #slider-nav #slider #info h1{
+    font-size: 2em;
+  }
+  #slider-nav #slider #info h2{
+    font-size: 1.6em;
+  }
+  #project #project-holder{
+    padding: 0.5em;
+  }#project .project-block .content .technologies{
+    font-size: 4.2vw;
+  }
+ 
+  #contact #contactHolder #form form .formel textarea{
+    width: 84vw;
+  }
+  #contact #contactHolder #form form .formel button{
+    padding: 0.2em 35vw;
+}
+#footer #links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  }
+ 

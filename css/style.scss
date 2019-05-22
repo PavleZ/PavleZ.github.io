@@ -1,0 +1,496 @@
+$letter:#fff;
+$background:#100E17;
+$mark:#FDA226;
+$elementColor:#1F1E24;
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+ul{
+    list-style-type:none; 
+}
+a{
+    text-decoration: none;
+}
+.cleaner{
+    clear:both;
+}
+.holder{
+    width:90%;
+    margin: 0px auto;
+}
+body{
+    background: $background;
+    font-family:"Roboto";
+    color:$letter;
+    
+}
+@mixin flex-vertikalniEnd{
+    display: flex;
+    align-items: flex-end;
+}
+@mixin flex-vertikalniCentar{
+    display: flex;
+    align-items: center;
+}
+
+@mixin flex-horizontalniEnd{
+    display: flex;
+    justify-content: flex-end;
+}
+@mixin flex-horizontalniCentar{
+    display: flex;
+    justify-content: center;
+}
+@mixin flex-horizontalniSpb{
+    display: flex;
+    justify-content: space-between;
+}
+@mixin flex-horizontalniSpar{
+    display: flex;
+    justify-content: space-around;
+}
+@mixin flex-horizontalniStart{
+    display: flex;
+    justify-content: flex-start;
+}
+@keyframes fill{
+    0%{
+        fill: $mark;
+    }
+    50%{
+        fill: transparent;
+    }
+   
+    100%{
+        fill: $mark;
+    }
+}
+
+#slider-nav{
+   width:100%;
+   margin: 0px auto;
+   
+  
+    #nav{
+        width:100%;
+        
+        /*background: $letter;*/
+        min-height: 35px;
+        display: flex;
+        justify-content: space-between;
+        #logo{
+            width:20%;
+           @include flex-vertikalniEnd();
+            padding-top:0.5em; 
+            #svg-logo{
+                animation-name: fill;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            }
+        }
+        #menu{
+            width:78%;
+            min-height: inherit;
+            @include flex-horizontalniEnd();
+            
+            ul{
+                width:60%;
+                min-height: inherit;
+                display: flex;
+              justify-content: space-around;
+
+                align-items: center;
+                li{
+                    
+                    a{
+                        font-size:1.4em;
+                        color:$letter;
+                        &:hover{
+                            color:$mark;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #slider{
+        width:100%;
+        padding: 15vh 0;
+        display: flex;
+        justify-content: space-between;
+        #info{
+            width: 55%;
+            min-height:300px;
+            @include flex-vertikalniCentar();
+           #textHolder{
+               width: 70%;
+            padding: 2.5em 0;
+             margin: 0px auto;
+           }
+            
+            h1{
+                font-size:5em;
+                
+            }
+            h2{
+                font-size:3em;  
+            }
+            p{
+                font-size:1.2em; 
+                margin: 0.3em 0;
+            }
+        }
+        #authorPhoto{
+            width: 45%;
+            
+            
+            @include flex-horizontalniCentar();
+            #imageHolder{
+                @include flex-vertikalniCentar();
+                @include flex-horizontalniCentar();
+               border: 6px solid $mark;
+             
+               border-radius:50%;
+               
+               
+               img{
+                   width: 18vw;
+                   height: 100%;
+                   border-radius:50%;
+                   
+               }
+            }
+        }
+    }
+}
+.organize{
+    width:100%;
+    padding:2em 0;
+}
+.heading{
+    font-size: 3.5em;
+    position: relative;
+    @include flex-horizontalniCentar();
+    &::after{
+        content:"";
+        width:9vw;
+        height: 0.3vh;
+        background:$mark;
+        display: block;
+        position: absolute;
+        bottom:0px;
+        z-index: 999;
+
+    }
+}
+#project{
+   
+    
+    #project-holder{
+        padding: 5em;
+    }
+  
+    .project-block{
+        width:11vw;
+      height:25vh;
+        background: $elementColor;
+      border-radius:50px; 
+    
+    .project-image{
+       
+       width: 100%;
+       
+       img{
+           width: 100%;
+           
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+       }
+    }
+    .content{
+      text-align: center;
+        width: 100%;
+        padding: 1em;
+       
+        .project-heading{
+            font-size:1.2vw;
+        }
+        .technologies{
+            font-size:1vw;
+        }
+        h3,p{
+            padding: 0.1em;
+        }
+    }
+}
+}
+#skills
+{
+    .sk{
+        &::after{
+            width:5vw;
+        }
+    }
+    #skill-holder
+    {
+       padding: 5em;
+       @include  flex-horizontalniSpar() ;
+    #group1,#group2{
+        width: 45%;
+        padding: 0.8em;
+    }
+        .skill
+        {
+            width: 100%;
+            @include flex-horizontalniCentar();
+            
+            height: 4vh;
+            .skill-heading
+            {
+                font-size: 1.3em; 
+            }
+            .skillHeadingHolder{
+                width:20%;
+                @include flex-vertikalniCentar();
+            }.progressFrameHolder{
+                width:80%;
+                @include flex-vertikalniCentar();
+            }
+            .progressFrame{
+                width:90%;
+                height: 2vh;
+                
+                background: $elementColor;
+                border-radius:30px; 
+                .progress{
+                    display: block;
+                    width:80%;
+                    height: inherit;
+                    background: $mark;
+                    border-radius:30px; 
+                }
+                .css{
+                    width:70%;
+                }
+                .sass{
+                    width:55%;
+                }
+                .sql{
+                    width:52%;
+                }
+                .figma{
+                    width:75%;
+                }
+                .xd{
+                    width:82%;
+                }
+                
+            }
+
+        }
+    } 
+ }
+#about{
+    width: 100%;
+    @include flex-horizontalniSpb();
+    #about-image{
+        width: 40%;
+       
+        @include flex-horizontalniCentar();
+        img{
+           
+            border-radius:50%;
+        }
+    }
+    #about-text{
+        width: 60%;
+        padding: 5em 0;
+        @include flex-horizontalniCentar();
+      
+        #textHolder{
+            text-align: justify;
+            .heading{
+                margin: 1.5vw 0;
+                
+            }
+            .ab{
+                &::after{
+                    width:11vw;
+                }
+            }
+            p{
+                font-size: 1.2em;
+              
+            }
+        }
+    }
+}
+#education{
+    width:100%;
+
+    .ed
+    {
+        &::after
+        {
+            width:10vw;
+        }
+    }
+    #educationHolder{
+        width: 100%;
+       
+        @include flex-horizontalniSpar();
+        #educationBlocks{
+            width:40%;
+     
+            @include flex-horizontalniCentar();
+            @include flex-vertikalniCentar();
+            #educationBlockHolder{
+
+                .educationBlock{
+                    background-color:$elementColor;
+                    padding: 2.2em; 
+                    margin-bottom: 1.5em;
+                    border-radius: 50px;
+                    .educationHeading{
+                        font-size:1.7em;
+                        text-align: center;
+                    }
+                    p{
+                        font-size:1em; 
+                        padding: 0.3em; 
+                        text-align: center;
+                    }
+                    .school{
+                        font-size:1.4em; 
+                        
+                    }
+                }
+            }
+        }
+        #educationImage{
+        
+            width:60%;
+            @include flex-horizontalniCentar();
+        }
+    }
+}
+#contact{
+    width:100%;
+    .co{
+        &::after
+        {
+            width:7.5vw;
+        }
+
+    }
+    #contactHolder{
+        width:100%;
+        padding: 3em;
+        @include flex-horizontalniSpb();
+        #info{
+            width:40%;
+            
+            @include flex-horizontalniCentar();
+   
+            #info-holder
+            {
+                
+                .info-heading
+                {
+                    font-size: 2em;
+                    
+                }
+                p,#social{
+                    font-size:1.4em;
+                }
+                p{
+                    padding: 0.1em 0;
+                }
+                #social{
+                    a{
+                        color:$letter;
+                    }
+                    i{
+                            font-size: 1.1em;
+                            padding: 0.1em;
+                            &:hover{
+                                color:$mark;
+                                transition:.6s; 
+                            }
+                    }
+                }
+            }
+        }
+        #form{
+            width:60%;
+           
+            @include flex-horizontalniCentar();
+            form{
+                .formel{
+                    padding: 0.2em;
+                    input[type="text"],input[type="email"],textarea
+                    {
+                        background:$elementColor; 
+                        
+                        border: none; 
+                       font-size: 1.8em;
+                       border-radius:10px; 
+                       color:$letter;
+                       outline-color: $mark;
+                       -moz-outline-radius: 10px;
+                       
+
+                    }
+                    textarea{
+                      font-size: 1.7em;
+                        resize: none;
+                        width:15.4em;
+                        height: auto;
+                    }
+                    ::placeholder{
+                        font-size:0.7em;
+                        font-family:"Roboto";
+                        padding:0.5em; 
+                    }
+                    button{
+                        font-family:"Roboto";
+                        font-size: 1.5em;
+                        padding: 0.3em 2em;
+                        background: $mark;
+                        border:none;
+                        color:$letter;
+                        border-radius: 20px;
+                        &:hover{
+                            background: $letter;
+                            color:$mark;
+                            transition: .6s;
+                        }
+                    }
+                }
+
+            }
+            
+        }
+    }
+}
+#footer{
+    width: 100%;
+    background: $elementColor;
+    height: 2%;
+    #links{
+        @include flex-vertikalniCentar();
+        @include flex-horizontalniCentar();
+        flex-direction: row;
+    }
+  
+    a{
+        color:$letter;
+        padding: 0 0.7em;
+        &:hover{
+            color:$mark;
+            transition: .6s;
+        }
+    }
+}
