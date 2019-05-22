@@ -433,7 +433,7 @@ body{
                     input[type="text"],input[type="email"],textarea
                     {
                         background:$elementColor; 
-                        
+                        width:100%;
                         border: none; 
                        font-size: 1.8em;
                        border-radius:10px; 
@@ -446,7 +446,7 @@ body{
                     textarea{
                       font-size: 1.7em;
                         resize: none;
-                        width:15.4em;
+                        width:100%;
                         height: auto;
                         -webkit-box-sizing: border-box;
 	                    -moz-box-sizing: border-box;

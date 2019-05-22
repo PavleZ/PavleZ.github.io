@@ -280,6 +280,7 @@ body {
         padding: 0.2em; }
         #contact #contactHolder #form form .formel input[type="text"], #contact #contactHolder #form form .formel input[type="email"], #contact #contactHolder #form form .formel textarea {
           background: #1F1E24;
+          width: 100%;
           border: none;
           font-size: 1.8em;
           border-radius: 10px;
@@ -289,7 +290,7 @@ body {
         #contact #contactHolder #form form .formel textarea {
           font-size: 1.7em;
           resize: none;
-          width: 15.4em;
+          width: 100%;
           height: auto;
           -webkit-box-sizing: border-box;
           -moz-box-sizing: border-box;
