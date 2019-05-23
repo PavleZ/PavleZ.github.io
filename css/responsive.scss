@@ -588,6 +588,11 @@
       text-align: justify;
     }
   }
+  #footer #links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 380px) {
@@ -651,11 +656,7 @@
   #skills .sk::after {
     width: 12vw;
   }
-  #footer #links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+
 }
 
 @media screen and (max-width: 330px) {
