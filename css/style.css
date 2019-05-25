@@ -64,7 +64,7 @@ body {
             color: #FDA226; }
   #slider-nav #slider {
     width: 100%;
-    padding: 15vh 0;
+    padding: 6 0;
     display: flex;
     justify-content: space-between; }
     #slider-nav #slider #info {
@@ -82,7 +82,8 @@ body {
         font-size: 3em; }
       #slider-nav #slider #info p {
         font-size: 1.2em;
-        margin: 0.3em 0; }
+        margin: 0.3em 0;
+        padding: 0.1em 0; }
     #slider-nav #slider #authorPhoto {
       width: 45%;
       display: flex;
@@ -101,7 +102,7 @@ body {
 
 .organize {
   width: 100%;
-  padding: 2em 0; }
+  padding: 7em 0; }
 
 .heading {
   font-size: 3.5em;
@@ -115,32 +116,30 @@ body {
     background: #FDA226;
     display: block;
     position: absolute;
-    bottom: 0px;
+    top: 1.3em;
     z-index: 999; }
 
-#project #project-holder {
-  padding: 5em; }
-#project .project-block {
-  width: 11vw;
-  height: 25vh;
-  background: #1F1E24;
-  border-radius: 50px; }
-  #project .project-block .project-image {
-    width: 100%; }
-    #project .project-block .project-image img {
-      width: 100%;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px; }
-  #project .project-block .content {
-    text-align: center;
+#project {
+  width: 100%; }
+  #project #project-holder {
+    padding-top: 5em;
     width: 100%;
-    padding: 1em; }
-    #project .project-block .content .project-heading {
-      font-size: 1.2vw; }
-    #project .project-block .content .technologies {
-      font-size: 1vw; }
-    #project .project-block .content h3, #project .project-block .content p {
-      padding: 0.1em; }
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    #project #project-holder .project-block {
+      width: 26%;
+      min-height: 200px;
+      margin: 1em;
+      padding: 2em;
+      position: relative;
+      background: #fff;
+      border-radius: 30px;
+      display: flex;
+      justify-content: center; }
+      #project #project-holder .project-block:hover {
+        background: #1F1E24;
+        transition: 1s; }
 
 #skills .sk::after {
   width: 5vw; }
@@ -259,11 +258,11 @@ body {
       display: flex;
       justify-content: center; }
       #contact #contactHolder #info #info-holder .info-heading {
-        font-size: 2em; }
+        font-size: 2em;
+        padding: 0.2em 0em; }
       #contact #contactHolder #info #info-holder p, #contact #contactHolder #info #info-holder #social {
-        font-size: 1.4em; }
-      #contact #contactHolder #info #info-holder p {
-        padding: 0.1em 0; }
+        font-size: 1.4em;
+        padding: 0.2em 0; }
       #contact #contactHolder #info #info-holder #social a {
         color: #fff; }
       #contact #contactHolder #info #info-holder #social i {
@@ -302,14 +301,14 @@ body {
         #contact #contactHolder #form form .formel button {
           font-family: "Roboto";
           font-size: 1.5em;
-          padding: 0.3em 2em;
-          background: #FDA226;
+          padding: 0.1em 1em;
+          background: transparent;
           border: none;
-          color: #fff;
-          border-radius: 20px; }
+          border-bottom: 2px solid #FDA226;
+          color: #fff; }
           #contact #contactHolder #form form .formel button:hover {
-            background: #fff;
             color: #FDA226;
+            border-bottom: 2px solid #fff;
             transition: .6s; }
 
 #footer {

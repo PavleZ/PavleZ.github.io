@@ -53,14 +53,25 @@
 @media screen and (max-width: 1388px) {
   #slider-nav #slider {
     #info {
+      width:50%;
       #textHolder {
         width: 100%;
+        h1{
+          font-size:3.5em;
+        }
+        h2{
+          font-size:2.2em;
+        }
+        p{
+          font-size: 1.2em;
+        }
       }
-      width: 55%;
+   
     }
-    #authorPhoto {
-      width: 40%;
-    }
+    /*#authorPhoto {
+  
+   
+    }*/
   }
   #project .project-block {
     width: 14vw;
@@ -85,6 +96,23 @@
   }
   #skills .sk::after {
     width: 6vw;
+  }
+}
+@media screen and (max-width: 1200px){
+  #slider-nav
+  {
+    #nav 
+    {
+      #menu
+      {
+        width: 100%;
+    display: flex;
+    justify-content: center;
+    ul {
+      width: 100%;
+    }
+      }
+    }
   }
 }
 
@@ -173,14 +201,7 @@
       width: 50%;
     }
   }
-  #slider-nav #nav #menu {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    ul {
-      width: 100%;
-    }
-  }
+ 
   #education #educationHolder #educationBlocks #educationBlockHolder .educationBlock {
     padding: 1.2em;
     .school {
@@ -199,37 +220,48 @@
   #skills .sk::after {
     width: 5vw;
   }
+  #slider-nav #slider {
+    #info {
+     
+      #textHolder {
+       
+        h1{
+          font-size:3em;
+        }
+        h2{
+          font-size:2em;
+        }
+        p{
+          font-size:1em;
+        }
+      }
 }
+  }
+}
+  
 
 @media screen and (max-width: 992px) {
-  #project .project-block {
-    width: 50%;
-    display: flex;
-    padding: 0px;
-    margin: 0px;
-    height: auto;
-    .content .technologies {
-      font-size: 1.8vw;
-    }
-    .project-image {
-      width: 50%;
-      height: auto;
+  
+  #project {
+    
+    #project-holder
+     {
+       padding: 3em 1em;
+
+        .project-block
+        {
+          width:32%;
+        }
+     }
+  }
+  #slider-nav #slider #authorPhoto
+  {
+    width:50%;
+   #imageHolder {
+    width: 70%;
       img {
         width: 100%;
-        height: 100%;
-        border-bottom-left-radius: 50px;
-        border-top-right-radius: 0px;
       }
-    }
-    .content {
-      width: 50%;
-      padding: 10px 0px;
-    }
-  }
-  #slider-nav #slider #authorPhoto #imageHolder {
-    width: 90%;
-    img {
-      width: 100%;
     }
   }
   #skills #skill-holder .skill {
@@ -240,9 +272,7 @@
       height: 1.5vh;
     }
   }
-  #project #project-holder {
-    padding: 3em;
-  }
+ 
   #slider-nav #slider #info {
     h1 {
       font-size: 3.3em;
@@ -280,7 +310,8 @@
 
 @media screen and (max-width: 850px) {
   #slider-nav #slider #authorPhoto #imageHolder {
-    width: 95%;
+    width: 90%;
+  
   }
   #project .project-block .content {
     .project-heading {
@@ -344,7 +375,10 @@
     width: 100%;
   }
   #slider-nav #slider #authorPhoto {
-    width: 45%;
+    width: 50%;
+  }
+  #slider-nav #slider #info #textHolder{
+    padding: 1em;
   }
   #project .project-block {
     width: 65%;
@@ -373,12 +407,33 @@
   #skills .sk::after {
     width: 7vw;
   }
+  #slider-nav #slider {
+    #info {
+     
+      #textHolder {
+       
+        h1{
+          font-size:2.5em;
+        }
+        h2{
+          font-size:1.6em;
+        }
+        p{
+          font-size:1em;
+        }
+      }
+}
+  }
+  #slider-nav #slider #authorPhoto #imageHolder img{
+    width:100%;
+  }
+
 }
 
 @media screen and (max-width: 625px) {
   #slider-nav {
     #slider {
-      padding-top: 2em;
+     
       padding-bottom: 0em;
     }
     #nav {
@@ -411,25 +466,28 @@
         min-height: 0;
         #textHolder {
           padding: 1em;
+          h2{
+            font-size:1.8em;
+          }
+          p{
+            font-size:1.1em;
+          }
         }
       }
     }
   }
   #project {
-    #project-holder {
-      padding: 1em;
-    }
-    .project-block {
-      width: 100%;
-      .content {
-        .project-heading {
-          font-size: 5vw;
+    
+    #project-holder
+     {
+     
+
+        .project-block
+        {
+          width:60%;
+          height:150px;
         }
-        .technologies {
-          font-size: 3.8vw;
-        }
-      }
-    }
+     }
   }
   #skills #skill-holder {
     padding: 1em;
@@ -449,6 +507,14 @@
     }
     p {
       font-size: 1.3em;
+    }
+    #textHolder{
+      p {
+        display: none;
+        &:last-of-type {
+          display: block;
+        }
+      }
     }
   }
   #education #educationHolder {
@@ -477,7 +543,7 @@
       }
       width: 100%;
       order: 2;
-      padding-top: 1em;
+      padding-top: 2em;
     }
     flex-direction: column;
     #form {
@@ -524,6 +590,9 @@
 }
 
 @media screen and (max-width: 480px) {
+  .organize{
+    padding: 3em 0em;
+  }
   #slider-nav #slider #info {
     h1 {
       font-size: 3em;
@@ -531,15 +600,11 @@
     h2 {
       font-size: 2.2em;
     }
-    p {
-      display: none;
-      &:last-of-type {
-        display: block;
-      }
-    }
+    
   }
   #education #educationHolder #educationBlocks #educationBlockHolder .educationBlock {
     width: 100%;
+    margin-top:2.5em; 
   }
   #slider-nav #slider #authorPhoto #imageHolder {
     width: 55%;
@@ -576,10 +641,9 @@
       display: flex;
       justify-content: center;
     }
+    
   }
-  .organize {
-    padding: 0em;
-  }
+ 
   #about {
     #about-image {
       display: none;
@@ -592,6 +656,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  #project {
+    padding: 4em 0em;
+    #project-holder
+     {
+     
+
+        .project-block
+        {
+          width:90%;
+          height:110px;
+        }
+     }
   }
 }
 
@@ -649,7 +726,7 @@
   }
   .heading::after, #contact .co::after {
     width: 26vw;
-   margin:0px auto;
+ 
   }
   #about #about-text #textHolder .ab::after, #education .ed::after {
     width: 28vw;
@@ -661,17 +738,27 @@
 }
 
 @media screen and (max-width: 330px) {
-  #slider-nav #slider #info {
-    h1 {
-      font-size: 2em;
+  #slider-nav {
+    #slider {
+      #info {
+        #textHolder{
+          h1{
+            font-size:2em;
+          }
+          h2{
+            font-size:1.6em;
+          }
+        }
+       
+      }
+     
     }
-    h2 {
-      font-size: 1.6em;
-    }
+    
   }
+  
   #project {
     #project-holder {
-      padding: 0.5em;
+      padding: 3em 0em;
     }
     .project-block .content .technologies {
       font-size: 4.2vw;
