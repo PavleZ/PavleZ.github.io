@@ -689,15 +689,21 @@
       width: 65%;
     }
   }
+
   #project .project-block .content .technologies {
     font-size: 4vw;
   }
-  #skills #skill-holder {
+  #skills {
+    
+   
+  #skill-holder {
     .skill .skill-heading {
       font-size: 1em;
     }
     padding: 0.2em;
+    
   }
+}
   #education #educationHolder #educationBlocks #educationBlockHolder .educationBlock {
     .school {
       font-size: 1.1em;
@@ -734,7 +740,9 @@
   #skills .sk::after {
     width: 12vw;
   }
-
+  #skills #skill-holder #group1{
+    padding-top:1.5em; 
+  }
 }
 
 @media screen and (max-width: 330px) {
