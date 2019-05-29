@@ -246,12 +246,13 @@
     
     #project-holder
      {
+      
+       
        padding: 3em 1em;
-
-        .project-block
-        {
-          width:32%;
-        }
+      .pr{
+        width:45%;
+       
+      }
      }
   }
   #slider-nav #slider #authorPhoto
@@ -480,13 +481,12 @@
     
     #project-holder
      {
-     
-
-        .project-block
-        {
-          width:60%;
-          height:150px;
-        }
+      
+      
+      .pr{
+        width:80%;
+       
+      }
      }
   }
   #skills #skill-holder {
@@ -662,12 +662,14 @@
     #project-holder
      {
      
-
+        .pr{
+          width:100%;
         .project-block
         {
           width:90%;
           height:110px;
         }
+      }
      }
   }
 }
@@ -768,6 +770,7 @@
     #project-holder {
       padding: 3em 0em;
     }
+   
     .project-block .content .technologies {
       font-size: 4.2vw;
     }

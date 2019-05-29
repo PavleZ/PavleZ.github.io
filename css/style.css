@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth; }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -118,7 +121,7 @@ body {
     position: absolute;
     top: 1.3em;
     z-index: 999;
-    margin: auto; }
+    margin: 0px auto; }
 
 #project {
   width: 100%; }
@@ -128,19 +131,24 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap; }
-    #project #project-holder .project-block {
+    #project #project-holder .pr {
       width: 26%;
       min-height: 200px;
-      margin: 1em;
-      padding: 2em;
-      position: relative;
-      background: #fff;
-      border-radius: 30px;
       display: flex;
       justify-content: center; }
-      #project #project-holder .project-block:hover {
-        background: #1F1E24;
-        transition: 1s; }
+      #project #project-holder .pr .project-block {
+        width: 100%;
+        min-height: 200px;
+        margin: 1em;
+        padding: 2em;
+        position: relative;
+        background: #fff;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center; }
+        #project #project-holder .pr .project-block:hover {
+          background: #1F1E24;
+          transition: 1s; }
 
 #skills .sk::after {
   width: 5vw; }
@@ -315,13 +323,16 @@ body {
 #footer {
   width: 100%;
   background: #1F1E24;
-  height: 2%; }
+  height: 4%; }
   #footer #links {
     display: flex;
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: row; }
+    #footer #links a i {
+      font-size: 2em;
+      margin: 0.4em; }
   #footer a {
     color: #fff;
     padding: 0 0.7em; }
