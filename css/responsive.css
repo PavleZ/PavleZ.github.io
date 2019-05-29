@@ -435,10 +435,11 @@
   #project {
     padding: 4em 0em; }
     #project #project-holder .pr {
-      width: 100%; }
+      width: 100%;
+      min-height: 175px; }
       #project #project-holder .pr .project-block {
         width: 90%;
-        height: 110px; } }
+        min-height: inherit; } }
 @media screen and (max-width: 380px) {
   #slider-nav #slider #info h1 {
     font-size: 2.5em; }

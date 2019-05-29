@@ -664,10 +664,11 @@
      
         .pr{
           width:100%;
+          min-height:175px;
         .project-block
         {
           width:90%;
-          height:110px;
+          min-height:inherit;
         }
       }
      }
