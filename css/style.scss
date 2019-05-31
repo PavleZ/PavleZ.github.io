@@ -179,7 +179,8 @@ body{
     font-size: 3.5em;
     position: relative;
     @include flex-horizontalniCentar();
-    &::after{
+  
+    /*&::after{
         content:"";
         width:9vw;
         height: 0.3vh;
@@ -190,9 +191,30 @@ body{
         z-index: 999;
         margin:0px auto;
 
-    }
+    }*/
 }
-
+.line{
+   
+    width:25%;
+    height:3px;
+    background: $mark;
+    margin: 0.4em auto;
+}
+.pr{
+    width:10%;
+}
+.sk{
+    width:5%;
+}
+.ab{
+    width:29%;
+}
+.ed{
+    width:12%;
+}
+.co{
+    width:8%;
+}
    
 #project{
    
@@ -317,7 +339,7 @@ body{
         #textHolder{
             text-align: justify;
             .heading{
-                margin: 1.5vw 0;
+                margin: 0.1em 0;
                 
             }
             .ab{
@@ -327,7 +349,9 @@ body{
             }
             p{
                 font-size: 1.2em;
-              
+              &:first-of-type{
+                  margin-top: 0.5em;
+              }
             }
         }
     }

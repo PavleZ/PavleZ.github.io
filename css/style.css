@@ -111,17 +111,40 @@ body {
   font-size: 3.5em;
   position: relative;
   display: flex;
-  justify-content: center; }
-  .heading::after {
-    content: "";
-    width: 9vw;
-    height: 0.3vh;
-    background: #FDA226;
-    display: block;
-    position: absolute;
-    top: 1.3em;
-    z-index: 999;
-    margin: 0px auto; }
+  justify-content: center;
+    /*&::after{
+        content:"";
+        width:9vw;
+        height: 0.3vh;
+        background:$mark;
+        display: block;
+        position: absolute;
+        top:1.3em;
+        z-index: 999;
+        margin:0px auto;
+
+    }*/ }
+
+.line {
+  width: 25%;
+  height: 3px;
+  background: #FDA226;
+  margin: 0.4em auto; }
+
+.pr {
+  width: 10%; }
+
+.sk {
+  width: 5%; }
+
+.ab {
+  width: 29%; }
+
+.ed {
+  width: 12%; }
+
+.co {
+  width: 8%; }
 
 #project {
   width: 100%; }
@@ -214,11 +237,13 @@ body {
     #about #about-text #textHolder {
       text-align: justify; }
       #about #about-text #textHolder .heading {
-        margin: 1.5vw 0; }
+        margin: 0.1em 0; }
       #about #about-text #textHolder .ab::after {
         width: 11vw; }
       #about #about-text #textHolder p {
         font-size: 1.2em; }
+        #about #about-text #textHolder p:first-of-type {
+          margin-top: 0.5em; }
 
 #education {
   width: 100%; }

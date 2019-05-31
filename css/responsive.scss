@@ -241,6 +241,9 @@
   
 
 @media screen and (max-width: 992px) {
+  .ab{
+    width:20%;
+  }
   
   #project {
     
@@ -300,6 +303,7 @@
           font-size: 1.4em;
         }
         text-align: center;
+       
       }
       padding: 3em 0;
     }
@@ -432,6 +436,17 @@
 }
 
 @media screen and (max-width: 625px) {
+  .pr{
+    width:15%;
+  }
+  .sk{
+    width:8%;
+  }.ed{
+    width:18%;
+  }
+  .co{
+    width:14%;
+  }
   #slider-nav {
     #slider {
      
@@ -593,6 +608,19 @@
   .organize{
     padding: 3em 0em;
   }
+  .pr{
+    width:20%;
+  }
+  .sk{
+    width:11%;
+  }.ed{
+    width:25%;
+  }.ab{
+    width:26%;
+  }
+  .co{
+    width:20%;
+  }
   #slider-nav #slider #info {
     h1 {
       font-size: 3em;
@@ -676,6 +704,19 @@
 }
 
 @media screen and (max-width: 380px) {
+  .pr{
+    width:24%;
+  }
+  .sk{
+    width:13%;
+  }.ed{
+    width:29%;
+  }.ab{
+    width:32%;
+  }
+  .co{
+    width:23%;
+  }
   #slider-nav #slider {
     #info {
       h1 {

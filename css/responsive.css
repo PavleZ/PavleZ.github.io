@@ -161,6 +161,9 @@
   #slider-nav #slider #info #textHolder p {
     font-size: 1em; } }
 @media screen and (max-width: 992px) {
+  .ab {
+    width: 20%; }
+
   #project #project-holder {
     padding: 3em 1em; }
     #project #project-holder .pr {
@@ -283,6 +286,18 @@
   #slider-nav #slider #authorPhoto #imageHolder img {
     width: 100%; } }
 @media screen and (max-width: 625px) {
+  .pr {
+    width: 15%; }
+
+  .sk {
+    width: 8%; }
+
+  .ed {
+    width: 18%; }
+
+  .co {
+    width: 14%; }
+
   #slider-nav #slider {
     padding-bottom: 0em; }
   #slider-nav #nav {
@@ -387,6 +402,21 @@
   .organize {
     padding: 3em 0em; }
 
+  .pr {
+    width: 20%; }
+
+  .sk {
+    width: 11%; }
+
+  .ed {
+    width: 25%; }
+
+  .ab {
+    width: 26%; }
+
+  .co {
+    width: 20%; }
+
   #slider-nav #slider #info h1 {
     font-size: 3em; }
   #slider-nav #slider #info h2 {
@@ -441,6 +471,21 @@
         width: 90%;
         min-height: inherit; } }
 @media screen and (max-width: 380px) {
+  .pr {
+    width: 24%; }
+
+  .sk {
+    width: 13%; }
+
+  .ed {
+    width: 29%; }
+
+  .ab {
+    width: 32%; }
+
+  .co {
+    width: 23%; }
+
   #slider-nav #slider #info h1 {
     font-size: 2.5em; }
   #slider-nav #slider #info h2 {
